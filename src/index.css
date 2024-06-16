@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  min-height: 100vh;
+  display: grid;
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+}
+.app.dark{
+  background: #222;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+  }
+}
